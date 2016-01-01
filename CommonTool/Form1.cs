@@ -16,5 +16,10 @@ namespace CommonTool
         {
             InitializeComponent();
         }
+
+        private void hex2StringToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            (new Hex2String()).ShowDialog();
+        }
     }
 }
